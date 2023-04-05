@@ -37,5 +37,5 @@ class Inventory:
 
         elif path.endswith('xml'):
             with open(path) as file:
-                ler_xml = xmltodict.parse(file.read())["dataset"]["record"]
+                ler_xml = xmltodict.parse(file.read())['dataset']['record']
                 return ler_xml
